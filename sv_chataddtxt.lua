@@ -1,10 +1,4 @@
- /*-------------------------------------------------------------------------------------------------------------------------
-    chat.AddText([ Player ply,] Colour colour, string text, Colour colour, string text, ... )
-    Returns: nil
-    In Object: None
-    Part of Library: chat
-    Available On: Server
--------------------------------------------------------------------------------------------------------------------------*/if SERVER then
+if SERVER then
     chat = { }
     function chat.AddText( ... )if ( type( arg[1] ) == "Player" ) then ply = arg[1] end
         
